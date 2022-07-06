@@ -8,3 +8,12 @@ console.log(username)
 console.log(username2)
 console.log(number)
 console.log(number2)
+
+let user_age=17
+if(user_age>18){
+    console.log("user is old enough")
+}
+let user_points=1-100
+if (user_points=75){
+    console.log("you have enough points to proceed")
+}
