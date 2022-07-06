@@ -14,6 +14,8 @@ if(user_age>18){
     console.log("user is old enough")
 }
 let user_points=1-100
-if (user_points=75){
+if (user_points>=75){
     console.log("you have enough points to proceed")
+}else {
+    console.log("if you can't do it, keep trying, eventually you will make progress.")
 }
